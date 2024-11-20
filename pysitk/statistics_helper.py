@@ -318,7 +318,7 @@ def show_boxplot(data_dic,
     for k in data_dic.keys():
 
         # Initialize as NaN-array
-        data[k] = np.full(len(classes), np.NaN)
+        data[k] = np.full(len(classes), np.nan)
 
         for i_label in range(len(labels)):
             N_vars = len(data_dic[k][i_label])
